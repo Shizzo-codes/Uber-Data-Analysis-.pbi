@@ -97,5 +97,5 @@ This project analyzes Uber trip data using Power BI to answer key business quest
 
 ## 📬 Contact
 
-Built by **Sina** — Data Analyst | Founder, [The Spreadsheet Noob](#)
+Built by **Sina Kolawole** — Data Analyst | Founder, [The Spreadsheet Noob](#)
 Feel free to connect or reach out with feedback!
