@@ -73,17 +73,14 @@ This project analyzes Uber trip data using Power BI to answer key business quest
 ## 📷 Screenshots
 
 **Overview Analysis**
-![Overview Analysis]
 <img width="2575" height="1482" alt="overview-analysis" src="https://github.com/user-attachments/assets/5e1af75b-e6bf-4ff0-a777-0951f069a132" />
 
 
 **Time Analysis**
-![Time Analysis]
 <img width="2575" height="1482" alt="time-analysis" src="https://github.com/user-attachments/assets/489aaece-feca-44f0-a091-cb32811b7b01" />
 
 
 **Details Tab**
-![Details Tab]
 <img width="2575" height="1482" alt="details-tab" src="https://github.com/user-attachments/assets/ff66b018-dd37-41c9-9a14-9217a9dfbd41" />
 
 
