@@ -1,4 +1,4 @@
-<img width="2575" height="1482" alt="overview-analysis" src="https://github.com/user-attachments/assets/65117699-649a-4415-8cba-91ab1391b82b" />[README.md](https://github.com/user-attachments/files/32011102/README.md)
+<img width="2575" height="1482" alt="overview-analysis" src="https://github.com/user-attachments/assets/9ff04d25-eae9-4c82-8d84-a9c90056d624" /><img width="2575" height="1482" alt="overview-analysis" src="https://github.com/user-attachments/assets/65117699-649a-4415-8cba-91ab1391b82b" />[README.md](https://github.com/user-attachments/files/32011102/README.md)
 
 # 🚗 Uber Trip Analysis — Power BI Dashboard
 
@@ -73,13 +73,19 @@ This project analyzes Uber trip data using Power BI to answer key business quest
 ## 📷 Screenshots
 
 **Overview Analysis**
-![Overview Analysis](./screenshots/overview-analysis.jpg)
+![Overview Analysis]
+<img width="2575" height="1482" alt="overview-analysis" src="https://github.com/user-attachments/assets/5e1af75b-e6bf-4ff0-a777-0951f069a132" />
+
 
 **Time Analysis**
-![Time Analysis](./screenshots/time-analysis.jpg)
+![Time Analysis]
+<img width="2575" height="1482" alt="time-analysis" src="https://github.com/user-attachments/assets/489aaece-feca-44f0-a091-cb32811b7b01" />
+
 
 **Details Tab**
-![Details Tab](./screenshots/details-tab.jpg)
+![Details Tab]
+<img width="2575" height="1482" alt="details-tab" src="https://github.com/user-attachments/assets/ff66b018-dd37-41c9-9a14-9217a9dfbd41" />
+
 
 ---
 
