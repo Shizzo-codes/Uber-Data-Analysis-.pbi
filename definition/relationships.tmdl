@@ -1,0 +1,28 @@
+relationship c55930fa-ec24-4b63-91a7-44782c5c3817
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Trip Details'.'Pickup Time'
+	toColumn: LocalDateTable_84b78d6d-37e0-4cfb-9329-39421d67c1a8.Date
+
+relationship 65fe1165-286e-41ed-b3f8-2f8280c34702
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Trip Details'.'Drop Off Time'
+	toColumn: LocalDateTable_806465d8-5d8a-4f89-b84e-8fe80a95b503.Date
+
+relationship 4f6fce55-b9af-f9b7-d7d8-e37fbf071d18
+	fromColumn: 'Trip Details'.PULocationID
+	toColumn: 'Location Table'.LocationID
+
+relationship cbe0275f-8709-7dd8-a811-86daa9cb2d79
+	isActive: false
+	fromColumn: 'Trip Details'.DOLocationID
+	toColumn: 'Location Table'.LocationID
+
+relationship 368385c0-af01-460b-88d6-e98d5e6ce9cf
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Calendar Table'.Date
+	toColumn: LocalDateTable_b2b45d6e-840c-462e-b5d8-71bb413e2d48.Date
+
+relationship be0dfda3-0fc4-28a8-23ae-4bcfd7689a4a
+	fromColumn: 'Trip Details'.'Pickup Date'
+	toColumn: 'Calendar Table'.Date
+

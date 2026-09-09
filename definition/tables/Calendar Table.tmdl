@@ -1,0 +1,42 @@
+table 'Calendar Table'
+	lineageTag: 8e7c0790-c8eb-495c-a278-73d15fde049d
+
+	measure 'Title for by Hour & Day' = SELECTEDVALUE('Dynamic Measure'[Dynamic Title]) & " by Hour & Day"
+		lineageTag: a3e84331-ec12-41b0-bc2d-70d026e5b5cf
+
+	column Date
+		formatString: Long Date
+		lineageTag: a16153ea-2443-4af4-a52f-b88d4b141c8b
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: 368385c0-af01-460b-88d6-e98d5e6ce9cf
+			defaultHierarchy: LocalDateTable_b2b45d6e-840c-462e-b5d8-71bb413e2d48.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Day Name' = FORMAT('Calendar Table'[Date], "ddd")
+		lineageTag: f9167142-f1e4-46ac-8a28-3816e56b3353
+		summarizeBy: none
+		sortByColumn: 'Day Num'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Day Num' = WEEKDAY('Calendar Table'[Date],1)
+		formatString: 0
+		lineageTag: 6ea318db-3b30-410c-953b-66f403498711
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Calendar Table' = calculated
+		mode: import
+		source = CALENDAR(MIN('Trip Details'[Pickup Date]),MAX('Trip Details'[Pickup Date]))
+
+	annotation PBI_Id = 62960a1a914141979809f6ae1dbcbd86
+

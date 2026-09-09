@@ -1,0 +1,25 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-GB
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Trip Details","Location Table"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'Trip Details'
+ref table DateTableTemplate_79125f3e-d336-4a70-aa16-57c5b9efc76d
+ref table LocalDateTable_84b78d6d-37e0-4cfb-9329-39421d67c1a8
+ref table LocalDateTable_806465d8-5d8a-4f89-b84e-8fe80a95b503
+ref table 'Location Table'
+ref table 'Calendar Table'
+ref table LocalDateTable_b2b45d6e-840c-462e-b5d8-71bb413e2d48
+ref table 'Dynamic Measure'
+
+ref cultureInfo en-US
+
